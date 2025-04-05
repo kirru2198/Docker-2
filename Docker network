@@ -1,3 +1,7 @@
+Sure! Here is the original content as you provided it:
+
+---
+
 Docker provides several commands for managing and working with networks. Here is a list of key commands related to Docker networking:
 
 1. `docker network ls`  
@@ -42,7 +46,7 @@ Docker provides several commands for managing and working with networks. Here is
      docker network disconnect my_network my_container
      ```
 
-7. `docker network prune` 
+7. `docker network prune`  
    - Description: Removes all unused networks.
    - Example:  
      ```
@@ -56,7 +60,7 @@ Docker provides several commands for managing and working with networks. Here is
      docker network inspect my_network --format '{{.Id}}'
      ```
 
-9. `docker network create --driver <driver_name> <network_name>` 
+9. `docker network create --driver <driver_name> <network_name>`  
    - Description: Create a network with a specific driver (e.g., `bridge`, `host`, `overlay`).
    - Example:  
      ```
