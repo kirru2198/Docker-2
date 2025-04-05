@@ -2,6 +2,8 @@
 
 When you run containers in Docker, they’re isolated from the host system and each other by default. The **bridge network** is a virtual network created by Docker on the host machine. Containers connected to this network can communicate with each other, but let's dive deeper into how this works:
 
+In the context of Docker, the term "host machine" refers to the physical or virtual machine that runs the Docker Engine. This is the machine on which your Docker containers are created, managed, and executed.
+
 #### 1. **Bridge Network Basics**
 - When you create containers and attach them to the **bridge network** (which is the default), Docker assigns each container an **IP address** on a private subnet. This means each container on the bridge network is **isolated** from the host and from containers not connected to this network.
   
