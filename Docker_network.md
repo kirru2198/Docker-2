@@ -1,4 +1,4 @@
-Certainly! Docker networks are a key concept in Docker that allow containers to communicate with each other and with external resources in a secure and controlled way. Here’s a breakdown of Docker networks:
+Docker networks are a key concept in Docker that allow containers to communicate with each other and with external resources in a secure and controlled way. 
 
 ### 1. **What is a Docker Network?**
 A **Docker network** is a virtual network that connects Docker containers to each other and to the outside world. Just like how devices on a physical network can communicate with each other, containers on a Docker network can interact with each other.
