@@ -30,7 +30,8 @@ This guide explains how to containerize a Python application using Docker, from 
 3. **Create the `requirements.txt` File:**
    - List the required Python dependencies:
      ```
-     flask
+     Flask==2.0.1
+     Werkzeug==2.0.1 
      ```
 
 ---
