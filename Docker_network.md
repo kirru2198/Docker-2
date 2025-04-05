@@ -1,6 +1,3 @@
-Sure! Here is the original content as you provided it:
-
----
 
 Docker provides several commands for managing and working with networks. Here is a list of key commands related to Docker networking:
 
